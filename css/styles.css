@@ -120,6 +120,9 @@ section.thankyou {
     section.thankyou .thankyou-message p {
       font-size: 20px;
       text-align: center; }
+      section.thankyou .thankyou-message p a {
+        color: #5c63b2;
+        text-decoration: none; }
       @media (min-width: 768px) {
         section.thankyou .thankyou-message p {
           width: 70%; } }
@@ -233,10 +236,10 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 30px; }
     footer .logos a img {
-      height: 30px;
+      max-height: 50px;
       margin: 10px; }
       @media (min-width: 768px) {
         footer .logos a img {
