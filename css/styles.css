@@ -95,7 +95,7 @@ h1 {
   font-size: 48px; }
 
 h2 {
-  font-size: 36px; }
+  font-size: 28px; }
 
 header {
   position: fixed;
@@ -146,6 +146,10 @@ section.blog-articles {
   background-position: center; }
   section.blog-articles h2 {
     margin-bottom: 50px; }
+    @media (min-width: 992px) {
+      section.blog-articles h2 {
+        max-width: 90%;
+        margin: 0 auto 50px; } }
   section.blog-articles .articles {
     display: flex;
     flex-wrap: wrap;
@@ -236,10 +240,10 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 30px; }
     footer .logos a img {
-      max-height: 50px;
+      max-height: 55px;
       margin: 10px; }
       @media (min-width: 768px) {
         footer .logos a img {
